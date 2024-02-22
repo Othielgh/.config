@@ -1,0 +1,13 @@
+{
+  "_id": "fb7b66de-5e24-4616-96f0-9e887a51cdd1",
+  "connectionInfo": {
+    "id": "fb7b66de-5e24-4616-96f0-9e887a51cdd1",
+    "connectionOptions": {
+      "connectionString": "mongodb://book@192.168.1.15:27017/?authMechanism=DEFAULT"
+    },
+    "favorite": {
+      "name": "bookmongo"
+    }
+  },
+  "version": 1
+}

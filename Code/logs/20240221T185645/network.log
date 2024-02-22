@@ -1,0 +1,2 @@
+2024-02-21 21:31:57.193 [error] electron #433: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
+2024-02-21 21:31:59.194 [error] electron #434: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED

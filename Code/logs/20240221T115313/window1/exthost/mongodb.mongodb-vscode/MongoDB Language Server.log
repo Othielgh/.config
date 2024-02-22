@@ -1,0 +1,4 @@
+2024-02-21 12:30:59.019 [info] MongoDBService initializing...
+2024-02-21 12:30:59.030 [info] MongoDBService initialized {"extensionPath":"/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0","connectionId":null,"hasConnectionString":false,"hasConnectionOptions":false}
+2024-02-21 12:32:30.499 [info] Changing CliServiceProvider active connection... {"currentConnectionId":null,"newConnectionId":"535ccce3-f1cc-4092-931f-6b88f20c5e7c","hasConnectionString":true,"hasConnectionOptions":true}
+2024-02-21 12:32:35.914 [info] CliServiceProvider active connection has changed: { connectionId: 535ccce3-f1cc-4092-931f-6b88f20c5e7c }

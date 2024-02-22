@@ -1,0 +1,1 @@
+MONGO_URL='mongodb+srv://book:book403@192.168.1.15/Bookmongo?retryWrites=true&w=majority'

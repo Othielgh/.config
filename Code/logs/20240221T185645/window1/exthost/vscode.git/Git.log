@@ -1,0 +1,610 @@
+2024-02-21 18:56:52.123 [info] Log level: Info
+2024-02-21 18:56:52.123 [info] Validating found git in: "git"
+2024-02-21 18:56:52.123 [info] Using git "2.43.2" from "git"
+2024-02-21 18:56:52.123 [info] > git rev-parse --show-toplevel [118ms]
+2024-02-21 18:56:52.123 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:52.123 [info] > git rev-parse --show-toplevel [93ms]
+2024-02-21 18:56:52.123 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:52.248 [info] > git rev-parse --show-toplevel [126ms]
+2024-02-21 18:56:52.248 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:53.128 [info] > git rev-parse --show-toplevel [793ms]
+2024-02-21 18:56:53.128 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:53.419 [info] > git rev-parse --show-toplevel [269ms]
+2024-02-21 18:56:53.419 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:53.985 [info] > git rev-parse --show-toplevel [452ms]
+2024-02-21 18:56:53.985 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:54.063 [info] > git rev-parse --show-toplevel [59ms]
+2024-02-21 18:56:54.064 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:54.075 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 18:56:54.075 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:54.086 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 18:56:54.086 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 18:56:54.098 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 18:56:54.098 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:16:44.006 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 19:16:44.006 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:17:34.557 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:17:34.557 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:17:39.007 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:17:39.007 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:17:57.462 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:17:57.462 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:18:23.272 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 19:18:23.272 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:18:24.650 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 19:18:24.650 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:18:54.010 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 19:18:54.010 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:19:09.423 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 19:19:09.423 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:19:58.615 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:19:58.615 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:20:37.730 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:20:37.730 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:20:44.180 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:20:44.181 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:20:59.196 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:20:59.196 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:21:35.254 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 19:21:35.254 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:22:25.569 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:22:25.569 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:22:27.753 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 19:22:27.753 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:23:48.521 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:23:48.521 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:25:13.477 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 19:25:13.477 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:26:34.988 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:26:34.988 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:26:43.147 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 19:26:43.147 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:26:44.435 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:26:44.435 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:26:47.238 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 19:26:47.238 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:26:47.248 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:26:47.248 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:26:47.257 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:26:47.257 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:39:38.544 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 19:39:38.545 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:39:38.572 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 19:39:38.572 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 19:39:38.581 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 19:39:38.581 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:02.314 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:06:02.314 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:02.341 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:06:02.341 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:02.353 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:06:02.353 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:05.139 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:06:05.139 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:05.163 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:06:05.163 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:05.172 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:06:05.172 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:06:05.181 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:06:05.181 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:14.992 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:14.992 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:15.021 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:13:15.021 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:15.030 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:15.030 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:17.915 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-21 20:13:17.915 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:17.937 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:17.937 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:17.947 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:13:17.947 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:17.958 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:13:17.958 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:23.383 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:13:23.383 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:23.406 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:23.406 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:23.415 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:23.415 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:25.627 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:13:25.627 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:25.657 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:25.657 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:25.665 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:13:25.665 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:13:25.674 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:13:25.674 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:17:15.963 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:17:15.963 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:17:15.975 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:17:15.975 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:17:15.984 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:17:15.984 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:17:32.259 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:17:32.259 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:17:32.283 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:17:32.283 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:17:32.295 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 20:17:32.295 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:36.871 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 20:18:36.872 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:36.882 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:18:36.882 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:36.892 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:18:36.892 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:37.159 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 20:18:37.159 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:37.170 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:18:37.170 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:37.182 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:18:37.182 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:38.023 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:18:38.023 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:18:40.943 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:18:40.943 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:19:26.608 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:19:26.608 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:19:27.154 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:19:27.155 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:19:27.166 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:19:27.166 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:19:27.177 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:19:27.177 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:24:49.176 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:24:49.176 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:24:49.202 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 20:24:49.202 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:24:49.215 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 20:24:49.215 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:26:16.438 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:26:16.438 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:26:16.452 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:26:16.452 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:26:16.462 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:26:16.462 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:26:51.984 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:26:51.984 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:26:52.005 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-21 20:26:52.005 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:26:52.019 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:26:52.019 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:10.139 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 20:28:10.139 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:10.150 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:28:10.150 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:10.160 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:28:10.160 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:32.371 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:28:32.371 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:32.397 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:28:32.397 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:32.407 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:28:32.407 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:54.673 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:28:54.673 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:54.683 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:28:54.683 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:28:54.693 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:28:54.693 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:29:27.122 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:29:27.122 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:29:27.148 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:29:27.148 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:29:27.159 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:29:27.159 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:30:02.225 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:30:02.225 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:30:02.250 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:30:02.250 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:30:02.260 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:30:02.260 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:41:57.137 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:41:57.137 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:42:05.625 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:42:05.625 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:42:05.634 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:42:05.634 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:42:10.350 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:42:10.350 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:46:28.295 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:46:28.296 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:46:28.309 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:46:28.309 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:46:30.001 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 20:46:30.001 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:46:30.011 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:46:30.011 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:46:30.020 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-21 20:46:30.020 [info] fatal: not a git repository (or any parent up to mount point /media)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-21 20:54:50.408 [info] > git rev-parse --show-toplevel [13ms]
+2024-02-21 20:54:50.408 [info] fatal: detected dubious ownership in repository at '/media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory '/media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG'
+2024-02-21 20:54:50.974 [info] > git rev-parse --show-toplevel [0ms]
+2024-02-21 20:54:50.974 [info] fatal: detected dubious ownership in repository at '/media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory '/media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG'
+2024-02-21 20:56:21.440 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 20:56:21.450 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-21 20:56:21.464 [info] Open repository: /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG
+2024-02-21 20:56:21.474 [info] > git config --get commit.template [1ms]
+2024-02-21 20:56:21.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-21 20:56:21.484 [warning] No such branch: master.
+2024-02-21 20:56:21.520 [info] > git status -z -uall [29ms]
+2024-02-21 20:56:21.656 [info] > git config --get commit.template [100ms]
+2024-02-21 20:56:21.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-21 20:56:21.670 [warning] No such branch: master.
+2024-02-21 20:56:21.714 [info] > git status -z -uall [32ms]
+2024-02-21 20:56:21.915 [info] > git show --textconv :model/user/user.js [7ms]
+2024-02-21 20:56:21.929 [info] > git show --textconv :controllers/users.js [7ms]
+2024-02-21 20:56:21.929 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [14ms]
+2024-02-21 20:56:21.930 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/controllers/users.js [2ms]
+2024-02-21 20:56:21.984 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-21 20:56:22.003 [info] > git fetch [539ms]
+2024-02-21 20:56:22.003 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Othielgh/logbook.git/'
+2024-02-21 20:56:22.017 [info] > git config --get commit.template [7ms]
+2024-02-21 20:56:22.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-21 20:56:22.018 [warning] No such branch: master.
+2024-02-21 20:56:22.051 [info] > git status -z -uall [27ms]
+2024-02-21 20:56:22.786 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [7ms]
+2024-02-21 20:56:22.793 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/controllers/users.js [8ms]
+2024-02-21 20:56:22.800 [info] > git show --textconv :model/user/user.js [7ms]
+2024-02-21 20:56:22.801 [info] > git show --textconv :controllers/users.js [1ms]
+2024-02-21 20:56:45.690 [info] > git config --get commit.template [7ms]
+2024-02-21 20:56:45.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-21 20:56:45.691 [warning] No such branch: master.
+2024-02-21 20:56:45.732 [info] > git status -z -uall [35ms]
+2024-02-21 20:56:45.791 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [7ms]
+2024-02-21 20:56:45.798 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/controllers/users.js [7ms]
+2024-02-21 20:56:45.805 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [6ms]
+2024-02-21 20:56:45.812 [info] > git cat-file -s ffec334b78806d3111a506c95d95ea54ec3e6138 [8ms]
+2024-02-21 20:56:45.819 [info] > git show --textconv :model/user/user.js [8ms]
+2024-02-21 20:56:45.821 [info] > git show --textconv :controllers/users.js [2ms]
+2024-02-21 20:59:41.134 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [18ms]
+2024-02-21 20:59:41.142 [info] > git config --get commit.template [37ms]
+2024-02-21 20:59:41.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-02-21 20:59:41.150 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/controllers/users.js [25ms]
+2024-02-21 20:59:41.158 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [17ms]
+2024-02-21 20:59:41.160 [info] > git cat-file -s ffec334b78806d3111a506c95d95ea54ec3e6138 [2ms]
+2024-02-21 20:59:41.177 [info] > git show --textconv :model/user/user.js [9ms]
+2024-02-21 20:59:41.179 [info] > git show --textconv :controllers/users.js [3ms]
+2024-02-21 20:59:41.190 [info] > git status -z -uall [40ms]
+2024-02-21 21:04:42.432 [info] > git config --get commit.template [8ms]
+2024-02-21 21:04:42.433 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-21 21:04:42.478 [info] > git status -z -uall [37ms]
+2024-02-21 21:11:51.247 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [10ms]
+2024-02-21 21:11:51.254 [info] > git config --get commit.template [27ms]
+2024-02-21 21:11:51.263 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/controllers/users.js [17ms]
+2024-02-21 21:11:51.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-21 21:11:51.279 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [25ms]
+2024-02-21 21:11:51.280 [info] > git cat-file -s ffec334b78806d3111a506c95d95ea54ec3e6138 [10ms]
+2024-02-21 21:11:51.298 [info] > git show --textconv :model/user/user.js [9ms]
+2024-02-21 21:11:51.300 [info] > git show --textconv :controllers/users.js [2ms]
+2024-02-21 21:11:51.318 [info] > git status -z -uall [39ms]
+2024-02-21 21:11:55.189 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-21 21:13:16.097 [info] > git show --textconv :.git-ignore [7ms]
+2024-02-21 21:13:16.098 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.git-ignore [1ms]
+2024-02-21 21:13:16.371 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-21 21:13:26.638 [info] > git config --get commit.template [11ms]
+2024-02-21 21:13:26.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-21 21:13:26.701 [info] > git status -z -uall [51ms]
+2024-02-21 21:13:31.520 [info] > git show --textconv :.gitignore [7ms]
+2024-02-21 21:13:31.521 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [1ms]
+2024-02-21 21:13:31.807 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-21 21:13:32.354 [info] > git config --get commit.template [7ms]
+2024-02-21 21:13:32.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:13:32.399 [info] > git status -z -uall [36ms]
+2024-02-21 21:13:52.924 [info] > git config --get commit.template [9ms]
+2024-02-21 21:13:52.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:13:52.952 [info] > git status -z -uall [21ms]
+2024-02-21 21:13:53.528 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-21 21:13:56.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-02-21 21:13:56.212 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:13:56.212 [warning] git config failed: Failed to execute git
+2024-02-21 21:13:56.222 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:13:56.245 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2024-02-21 21:13:56.245 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:13:56.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-02-21 21:13:56.294 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:13:56.294 [warning] git config failed: Failed to execute git
+2024-02-21 21:13:56.304 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [2ms]
+2024-02-21 21:13:56.313 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:13:56.313 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:14:41.113 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z HEAD [19ms]
+2024-02-21 21:14:41.123 [info] > git update-ref -d HEAD [2ms]
+2024-02-21 21:14:41.138 [info] > git config --get commit.template [7ms]
+2024-02-21 21:14:41.139 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:14:41.139 [warning] No such branch: main.
+2024-02-21 21:14:41.166 [info] > git status -z -uall [21ms]
+2024-02-21 21:14:41.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:14:41.209 [warning] No such branch: refs/heads/main.
+2024-02-21 21:14:41.210 [error] Failed to get branch base for 'refs/heads/main': No such branch: refs/heads/main.
+2024-02-21 21:14:41.210 [info] > git branch [11ms]
+2024-02-21 21:14:41.255 [info] > git rm --cached -r -- . [36ms]
+2024-02-21 21:14:41.276 [info] > git config --get commit.template [6ms]
+2024-02-21 21:14:41.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-21 21:14:41.277 [warning] No such branch: main.
+2024-02-21 21:14:41.285 [info] > git status -z -uall [2ms]
+2024-02-21 21:14:41.907 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-21 21:14:42.396 [info] > git config --get commit.template [8ms]
+2024-02-21 21:14:42.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:14:42.397 [warning] No such branch: main.
+2024-02-21 21:14:42.406 [info] > git status -z -uall [3ms]
+2024-02-21 21:14:42.495 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [7ms]
+2024-02-21 21:14:42.503 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [8ms]
+2024-02-21 21:14:42.511 [info] > git show --textconv :model/user/user.js [9ms]
+2024-02-21 21:14:42.512 [info] > git show --textconv :.gitignore [2ms]
+2024-02-21 21:18:04.159 [info] > git config --get commit.template [9ms]
+2024-02-21 21:18:04.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:18:04.185 [info] > git status -z -uall [15ms]
+2024-02-21 21:18:04.186 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [7ms]
+2024-02-21 21:18:04.194 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [2ms]
+2024-02-21 21:18:04.194 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [9ms]
+2024-02-21 21:18:04.212 [info] > git cat-file -s c6bba591381216b569cdcb512d98b53c53fd167d [10ms]
+2024-02-21 21:18:04.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [10ms]
+2024-02-21 21:18:04.237 [info] > git show --textconv :model/user/user.js [16ms]
+2024-02-21 21:18:04.237 [info] > git config --local branch.main.vscode-merge-base [8ms]
+2024-02-21 21:18:04.238 [warning] git config failed: Failed to execute git
+2024-02-21 21:18:04.245 [info] > git show --textconv :.gitignore [8ms]
+2024-02-21 21:18:04.248 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-02-21 21:18:04.262 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-21 21:18:04.262 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:18:04.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:18:04.293 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-21 21:18:04.293 [warning] git config failed: Failed to execute git
+2024-02-21 21:18:04.304 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:18:04.312 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:18:04.312 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:18:04.325 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:18:04.334 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:18:04.334 [warning] git config failed: Failed to execute git
+2024-02-21 21:18:04.346 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:18:04.355 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-21 21:18:04.355 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:20:23.272 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [15ms]
+2024-02-21 21:20:23.279 [info] > git config --get commit.template [30ms]
+2024-02-21 21:20:23.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-02-21 21:20:23.286 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [22ms]
+2024-02-21 21:20:23.293 [info] > git status -z -uall [6ms]
+2024-02-21 21:20:23.293 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [14ms]
+2024-02-21 21:20:23.294 [info] > git cat-file -s c6bba591381216b569cdcb512d98b53c53fd167d [2ms]
+2024-02-21 21:20:23.308 [info] > git show --textconv :model/user/user.js [7ms]
+2024-02-21 21:20:23.310 [info] > git show --textconv :.gitignore [2ms]
+2024-02-21 21:20:28.310 [info] > git config --get commit.template [7ms]
+2024-02-21 21:20:28.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:20:28.322 [info] > git status -z -uall [4ms]
+2024-02-21 21:20:29.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-02-21 21:20:34.502 [info] > git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads [2ms]
+2024-02-21 21:20:34.518 [info] > git checkout -q --track origin/main [8ms]
+2024-02-21 21:20:34.518 [info] fatal: a branch named 'main' already exists
+2024-02-21 21:20:34.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [7ms]
+2024-02-21 21:20:34.533 [info] > git config --get commit.template [8ms]
+2024-02-21 21:20:34.540 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2024-02-21 21:20:34.540 [warning] git config failed: Failed to execute git
+2024-02-21 21:20:34.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-02-21 21:20:34.555 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [7ms]
+2024-02-21 21:20:34.562 [info] > git status -z -uall [8ms]
+2024-02-21 21:20:34.564 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-21 21:20:34.564 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:20:34.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:20:34.590 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:20:34.590 [warning] git config failed: Failed to execute git
+2024-02-21 21:20:34.600 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:20:34.608 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:20:34.608 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:21:34.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-02-21 21:21:34.841 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:21:34.841 [warning] git config failed: Failed to execute git
+2024-02-21 21:21:34.851 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:21:34.859 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-21 21:21:34.859 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:21:34.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:21:34.877 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:21:34.878 [warning] git config failed: Failed to execute git
+2024-02-21 21:21:34.887 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:21:34.895 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:21:34.895 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:21:43.025 [info] > git push -u origin main [8201ms]
+2024-02-21 21:21:43.025 [info] To github.com:Othielgh/logbook.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:Othielgh/logbook.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2024-02-21 21:21:43.043 [info] > git config --get commit.template [7ms]
+2024-02-21 21:21:43.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 21:21:43.053 [info] > git status -z -uall [3ms]
+2024-02-21 21:21:43.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:21:43.074 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:21:43.074 [warning] git config failed: Failed to execute git
+2024-02-21 21:21:43.085 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:21:43.093 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:21:43.093 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:21:43.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:21:43.112 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:21:43.112 [warning] git config failed: Failed to execute git
+2024-02-21 21:21:43.122 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:21:43.131 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:21:43.131 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:22:04.972 [info] > git log --oneline --cherry main...main@{upstream} -- [8ms]
+2024-02-21 21:22:04.972 [info] fatal: no upstream configured for branch 'main'
+2024-02-21 21:22:04.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [8ms]
+2024-02-21 21:22:04.989 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:22:04.989 [warning] git config failed: Failed to execute git
+2024-02-21 21:22:04.998 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:22:05.006 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-21 21:22:05.006 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:22:05.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-21 21:22:05.027 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:22:05.027 [warning] git config failed: Failed to execute git
+2024-02-21 21:22:05.037 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:22:05.045 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:22:05.045 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:22:06.176 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [8ms]
+2024-02-21 21:22:06.183 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [7ms]
+2024-02-21 21:22:06.189 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [7ms]
+2024-02-21 21:22:06.197 [info] > git cat-file -s c6bba591381216b569cdcb512d98b53c53fd167d [8ms]
+2024-02-21 21:22:06.205 [info] > git show --textconv :model/user/user.js [7ms]
+2024-02-21 21:22:06.206 [info] > git show --textconv :.gitignore [2ms]
+2024-02-21 21:22:14.474 [info] > git pull --tags [9494ms]
+2024-02-21 21:22:14.474 [info] There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+2024-02-21 21:22:14.489 [info] > git config --get commit.template [7ms]
+2024-02-21 21:22:14.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-21 21:22:14.500 [info] > git status -z -uall [3ms]
+2024-02-21 21:22:14.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-02-21 21:22:14.520 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-21 21:22:14.520 [warning] git config failed: Failed to execute git
+2024-02-21 21:22:14.530 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:22:14.538 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:22:14.538 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:22:14.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-02-21 21:22:14.557 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-21 21:22:14.557 [warning] git config failed: Failed to execute git
+2024-02-21 21:22:14.567 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-21 21:22:14.575 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-21 21:22:14.575 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-21 21:22:18.549 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [7ms]
+2024-02-21 21:22:18.556 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [8ms]
+2024-02-21 21:22:18.562 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [7ms]
+2024-02-21 21:22:18.570 [info] > git cat-file -s c6bba591381216b569cdcb512d98b53c53fd167d [8ms]
+2024-02-21 21:22:18.578 [info] > git show --textconv :model/user/user.js [9ms]
+2024-02-21 21:22:18.580 [info] > git show --textconv :.gitignore [2ms]
+2024-02-21 21:25:19.263 [info] > git config --get commit.template [10ms]
+2024-02-21 21:25:19.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-21 21:25:19.283 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/model/user/user.js [9ms]
+2024-02-21 21:25:19.291 [info] > git ls-files --stage -- /media/Projects/Projects/Programming/Web/Full Stack Webdev/PROJECTS/Fullstack BLOG/.gitignore [9ms]
+2024-02-21 21:25:19.298 [info] > git cat-file -s 27d223bde1b9e4cf937ce62da49abe1d58e49d85 [8ms]
+2024-02-21 21:25:19.307 [info] > git cat-file -s c6bba591381216b569cdcb512d98b53c53fd167d [10ms]
+2024-02-21 21:25:19.315 [info] > git status -z -uall [9ms]
+2024-02-21 21:25:19.318 [info] > git show --textconv :model/user/user.js [3ms]
+2024-02-21 21:25:19.337 [info] > git show --textconv :.gitignore [10ms]
+2024-02-21 21:25:19.338 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-02-21 21:25:19.349 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-02-21 21:25:24.335 [info] > git config --get commit.template [8ms]
+2024-02-21 21:25:24.337 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-21 21:25:24.348 [info] > git status -z -uall [3ms]

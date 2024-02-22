@@ -1,0 +1,8 @@
+2024-02-21 11:53:16.692 [info] update#setState idle
+2024-02-21 11:53:46.699 [info] update#setState checking for updates
+2024-02-21 11:53:46.726 [info] update#setState idle
+2024-02-21 12:53:46.702 [info] update#setState checking for updates
+2024-02-21 12:53:46.819 [info] update#setState idle
+2024-02-21 13:51:32.438 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService
+2024-02-21 13:51:32.442 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 17171]: crashed with code 15 and reason 'killed'
+2024-02-21 13:51:32.469 [info] Extension host with pid 17150 exited with code: 0, signal: unknown.

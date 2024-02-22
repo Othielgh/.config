@@ -1,0 +1,698 @@
+2024-02-21 18:56:51.138 [info] 2024-02-21T17:56:50.995Z extension INFO  Activating extension... [
+  {
+    id: 'mongodb.mongodb-vscode',
+    version: '1.5.0',
+    mode: 'Production',
+    kind: 'UI',
+    extensionPath: '/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0',
+    logPath: '/home/aj/.config/Code/logs/20240221T185645/window1/exthost/mongodb.mongodb-vscode',
+    workspaceStoragePath: '/home/aj/.config/Code/User/workspaceStorage/d43fab83bc54f941112f5221477dc9d4/mongodb.mongodb-vscode',
+    globalStoragePath: '/home/aj/.config/Code/User/globalStorage/mongodb.mongodb-vscode',
+    defaultConnectionSavingLocation: 'Global',
+    buildInfo: {
+      nodeVersion: 'v18.17.1',
+      runtimePlatform: 'linux',
+      runtimeArch: 'x64'
+    }
+  }
+]
+
+2024-02-21 18:56:51.138 [info] 2024-02-21T17:56:50.996Z telemetry INFO  SegmentKey was found [ { type: 'string' } ]
+
+2024-02-21 18:56:51.138 [info] 2024-02-21T17:56:50.996Z language server controller INFO  Creating MongoDB Language Server... [
+  {
+    extensionPath: '/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0',
+    languageServer: {
+      id: 'mongodbLanguageServer',
+      name: 'MongoDB Language Server',
+      path: '/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/languageServer.js',
+      documentSelector: '[{"pattern":"**/*.mongodb.js"},{"pattern":"**/*.mongodb"}]'
+    }
+  }
+]
+
+2024-02-21 18:56:51.138 [info] 2024-02-21T17:56:51.000Z telemetry INFO  Segment analytics activated [ { anonymousId: '01cf3c54-aa8d-4c5f-ae1b-2c56a6ee8a74' } ]
+
+2024-02-21 18:56:51.138 [info] 2024-02-21T17:56:51.105Z language server controller INFO  Starting the language server... []
+
+2024-02-21 18:56:51.482 [info] 2024-02-21T17:56:51.482Z language server controller INFO  MongoDBService initialized. Sending default settings... {"extensionPath":"/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0","connectionId":null,"hasConnectionString":false,"hasConnectionOptions":false} []
+
+2024-02-21 20:39:10.918 [info] 2024-02-21T19:39:10.907Z explorer tree controller INFO  Connection tree item was expanded [
+  {
+    connectionId: '535ccce3-f1cc-4092-931f-6b88f20c5e7c',
+    connectionName: 'logbook.i7seof1.mongodb.net',
+    isExpanded: false
+  }
+]
+
+2024-02-21 20:39:10.918 [info] 2024-02-21T19:39:10.907Z connection controller INFO  Connect called to connect to instance [ 'logbook.i7seof1.mongodb.net' ]
+
+2024-02-21 20:39:10.918 [info] 2024-02-21T19:39:10.910Z connection controller INFO  Connecting to MongoDB... [
+  {
+    connectionInfo: '{"id":"535ccce3-f1cc-4092-931f-6b88f20c5e7c","name":"logbook.i7seof1.mongodb.net","storageLocation":"GLOBAL","secretStorageLocation":"vscode.SecretStorage","connectionOptions":{"connectionString":"mongodb+srv://logins@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0","oidc":{}}}'
+  }
+]
+
+2024-02-21 20:39:10.918 [info] 2024-02-21T19:39:10.917Z connection controller INFO  COMPASS-DATA-SERVICE [
+  { __value: 1001000014 },
+  'Connection 0',
+  'Connecting',
+  {
+    url: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0',
+    csfle: null
+  }
+]
+
+2024-02-21 20:39:10.922 [info] 2024-02-21T19:39:10.920Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'mongodb-client-encryption',
+    error: "Cannot find module 'mongodb-client-encryption'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:39:10.922 [info] 2024-02-21T19:39:10.920Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'os-dns-native',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:39:10.922 [info] 2024-02-21T19:39:10.921Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000038 },
+  'compass-connect',
+  'Resolving SRV record failed',
+  {
+    from: '',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- ',
+    duringLoad: true,
+    resolutionDetails: []
+  }
+]
+
+2024-02-21 20:39:10.927 [info] 2024-02-21T19:39:10.926Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000042 },
+  'compass-connect',
+  'Initiating connection attempt',
+  {
+    uri: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0',
+    driver: { name: 'nodejs', version: '6.3.0' },
+    devtoolsConnectVersion: '2.4.3',
+    host: 'logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:40:26.980 [info] 2024-02-21T19:40:26.980Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000037 },
+  'compass-connect',
+  'Connection attempt finished',
+  undefined
+]
+
+2024-02-21 20:40:26.981 [info] 2024-02-21T19:40:26.981Z connection controller DEBUG Connection Attempt [
+  { __value: 1001000279 },
+  'connect',
+  'connection attempt failed',
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:40:26.981 [info] 2024-02-21T19:40:26.981Z connection controller ERROR Failed to connect by a connection id [
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net',
+    vslsStack: [ CallSite {} ]
+  }
+]
+
+2024-02-21 20:40:33.025 [info] 2024-02-21T19:40:33.023Z explorer tree controller INFO  Connection tree item was expanded [
+  {
+    connectionId: '535ccce3-f1cc-4092-931f-6b88f20c5e7c',
+    connectionName: 'logbook.i7seof1.mongodb.net',
+    isExpanded: false
+  }
+]
+
+2024-02-21 20:40:33.025 [info] 2024-02-21T19:40:33.023Z connection controller INFO  Connect called to connect to instance [ 'logbook.i7seof1.mongodb.net' ]
+
+2024-02-21 20:40:33.025 [info] 2024-02-21T19:40:33.023Z connection controller INFO  Connecting to MongoDB... [
+  {
+    connectionInfo: '{"id":"535ccce3-f1cc-4092-931f-6b88f20c5e7c","name":"logbook.i7seof1.mongodb.net","storageLocation":"GLOBAL","secretStorageLocation":"vscode.SecretStorage","connectionOptions":{"connectionString":"mongodb+srv://logins@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0","oidc":{}}}'
+  }
+]
+
+2024-02-21 20:40:33.025 [info] 2024-02-21T19:40:33.025Z connection controller INFO  COMPASS-DATA-SERVICE [
+  { __value: 1001000014 },
+  'Connection 1',
+  'Connecting',
+  {
+    url: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0',
+    csfle: null
+  }
+]
+
+2024-02-21 20:40:33.026 [info] 2024-02-21T19:40:33.026Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'mongodb-client-encryption',
+    error: "Cannot find module 'mongodb-client-encryption'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:40:33.026 [info] 2024-02-21T19:40:33.026Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'os-dns-native',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:40:33.026 [info] 2024-02-21T19:40:33.026Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000038 },
+  'compass-connect',
+  'Resolving SRV record failed',
+  {
+    from: '',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- ',
+    duringLoad: true,
+    resolutionDetails: []
+  }
+]
+
+2024-02-21 20:40:33.028 [info] 2024-02-21T19:40:33.028Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000042 },
+  'compass-connect',
+  'Initiating connection attempt',
+  {
+    uri: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0',
+    driver: { name: 'nodejs', version: '6.3.0' },
+    devtoolsConnectVersion: '2.4.3',
+    host: 'logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:41:48.087 [info] 2024-02-21T19:41:48.087Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000037 },
+  'compass-connect',
+  'Connection attempt finished',
+  undefined
+]
+
+2024-02-21 20:41:48.088 [info] 2024-02-21T19:41:48.088Z connection controller DEBUG Connection Attempt [
+  { __value: 1001000279 },
+  'connect',
+  'connection attempt failed',
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:41:48.088 [info] 2024-02-21T19:41:48.088Z connection controller ERROR Failed to connect by a connection id [
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net',
+    vslsStack: [ CallSite {} ]
+  }
+]
+
+2024-02-21 20:41:54.223 [info] 2024-02-21T19:41:54.220Z explorer tree controller INFO  Connection tree item was expanded [
+  {
+    connectionId: '535ccce3-f1cc-4092-931f-6b88f20c5e7c',
+    connectionName: 'logbook.i7seof1.mongodb.net',
+    isExpanded: false
+  }
+]
+
+2024-02-21 20:41:54.223 [info] 2024-02-21T19:41:54.220Z connection controller INFO  Connect called to connect to instance [ 'logbook.i7seof1.mongodb.net' ]
+
+2024-02-21 20:41:54.223 [info] 2024-02-21T19:41:54.221Z connection controller INFO  Connecting to MongoDB... [
+  {
+    connectionInfo: '{"id":"535ccce3-f1cc-4092-931f-6b88f20c5e7c","name":"logbook.i7seof1.mongodb.net","storageLocation":"GLOBAL","secretStorageLocation":"vscode.SecretStorage","connectionOptions":{"connectionString":"mongodb+srv://logins@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0","oidc":{}}}'
+  }
+]
+
+2024-02-21 20:41:54.223 [info] 2024-02-21T19:41:54.222Z connection controller INFO  COMPASS-DATA-SERVICE [
+  { __value: 1001000014 },
+  'Connection 2',
+  'Connecting',
+  {
+    url: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0',
+    csfle: null
+  }
+]
+
+2024-02-21 20:41:54.224 [info] 2024-02-21T19:41:54.223Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'mongodb-client-encryption',
+    error: "Cannot find module 'mongodb-client-encryption'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:41:54.224 [info] 2024-02-21T19:41:54.223Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'os-dns-native',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:41:54.224 [info] 2024-02-21T19:41:54.223Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000038 },
+  'compass-connect',
+  'Resolving SRV record failed',
+  {
+    from: '',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- ',
+    duringLoad: true,
+    resolutionDetails: []
+  }
+]
+
+2024-02-21 20:41:54.225 [info] 2024-02-21T19:41:54.225Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000042 },
+  'compass-connect',
+  'Initiating connection attempt',
+  {
+    uri: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appname=mongodb-vscode+1.5.0',
+    driver: { name: 'nodejs', version: '6.3.0' },
+    devtoolsConnectVersion: '2.4.3',
+    host: 'logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:41:57.123 [info] 2024-02-21T19:41:57.122Z webview controller INFO  Opening webview... []
+
+2024-02-21 20:42:07.656 [info] 2024-02-21T19:42:07.656Z telemetry ERROR Failed to track telemetry [
+  [TypeError: fetch failed
+  	at Object.fetch (node:internal/deps/undici/undici:11576:11)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async E.send (/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js:489:815208)] {
+    cause: [Error: connect ECONNREFUSED 0.0.0.0:443
+    	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)] {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '0.0.0.0',
+      port: 443,
+      vslsStack: [Array]
+    }
+  }
+]
+
+2024-02-21 20:42:07.656 [info] 2024-02-21T19:42:07.656Z telemetry ERROR Failed to track telemetry [
+  [TypeError: fetch failed
+  	at Object.fetch (node:internal/deps/undici/undici:11576:11)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async E.send (/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js:489:815208)] {
+    cause: [Error: connect ECONNREFUSED 0.0.0.0:443
+    	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)] {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '0.0.0.0',
+      port: 443,
+      vslsStack: [Array]
+    },
+    vslsStack: [ CallSite {}, CallSite {}, CallSite {} ]
+  }
+]
+
+2024-02-21 20:42:18.937 [info] 2024-02-21T19:42:18.935Z connection controller INFO  Connect called to connect to instance [ 'logbook.i7seof1.mongodb.net' ]
+
+2024-02-21 20:42:18.937 [info] 2024-02-21T19:42:18.935Z connection controller DEBUG Connection Attempt [
+  { __value: 1001000280 },
+  'close requested',
+  'cancelled connection attempt'
+]
+
+2024-02-21 20:42:18.937 [info] 2024-02-21T19:42:18.936Z connection controller INFO  Connecting to MongoDB... [
+  {
+    connectionInfo: '{"id":"535ccce3-f1cc-4092-931f-6b88f20c5e7c","name":"logbook.i7seof1.mongodb.net","storageLocation":"GLOBAL","secretStorageLocation":"vscode.SecretStorage","connectionOptions":{"connectionString":"mongodb+srv://logins@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority","oidc":{}}}'
+  }
+]
+
+2024-02-21 20:42:18.937 [info] 2024-02-21T19:42:18.937Z connection controller INFO  COMPASS-DATA-SERVICE [
+  { __value: 1001000014 },
+  'Connection 3',
+  'Connecting',
+  {
+    url: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appName=mongodb-vscode',
+    csfle: null
+  }
+]
+
+2024-02-21 20:42:18.938 [info] 2024-02-21T19:42:18.938Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'mongodb-client-encryption',
+    error: "Cannot find module 'mongodb-client-encryption'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:42:18.938 [info] 2024-02-21T19:42:18.938Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'os-dns-native',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:42:18.938 [info] 2024-02-21T19:42:18.938Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000038 },
+  'compass-connect',
+  'Resolving SRV record failed',
+  {
+    from: '',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- ',
+    duringLoad: true,
+    resolutionDetails: []
+  }
+]
+
+2024-02-21 20:42:18.940 [info] 2024-02-21T19:42:18.940Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000042 },
+  'compass-connect',
+  'Initiating connection attempt',
+  {
+    uri: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appName=mongodb-vscode',
+    driver: { name: 'nodejs', version: '6.3.0' },
+    devtoolsConnectVersion: '2.4.3',
+    host: 'logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:43:09.271 [info] 2024-02-21T19:43:09.271Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000037 },
+  'compass-connect',
+  'Connection attempt finished',
+  undefined
+]
+
+2024-02-21 20:43:09.271 [info] 2024-02-21T19:43:09.271Z connection controller DEBUG Connection Attempt [
+  { __value: 1001000279 },
+  'connect',
+  'connection attempt failed',
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:43:34.287 [info] 2024-02-21T19:43:34.287Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000037 },
+  'compass-connect',
+  'Connection attempt finished',
+  undefined
+]
+
+2024-02-21 20:43:34.287 [info] 2024-02-21T19:43:34.287Z connection controller DEBUG Connection Attempt [
+  { __value: 1001000279 },
+  'connect',
+  'connection attempt failed',
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:43:34.287 [info] 2024-02-21T19:43:34.287Z connection controller ERROR Failed to connect by a connection id [
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net',
+    vslsStack: [ CallSite {} ]
+  }
+]
+
+2024-02-21 20:43:44.692 [info] 2024-02-21T19:43:44.692Z telemetry ERROR Failed to track telemetry [
+  [TypeError: fetch failed
+  	at Object.fetch (node:internal/deps/undici/undici:11576:11)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async E.send (/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js:489:815208)] {
+    cause: [Error: connect ECONNREFUSED 0.0.0.0:443
+    	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)] {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '0.0.0.0',
+      port: 443,
+      vslsStack: [Array]
+    }
+  }
+]
+
+2024-02-21 20:45:05.655 [info] 2024-02-21T19:45:05.653Z connection controller INFO  Connect called to connect to instance [ 'logbook.i7seof1.mongodb.net' ]
+
+2024-02-21 20:45:05.656 [info] 2024-02-21T19:45:05.654Z connection controller INFO  Connecting to MongoDB... [
+  {
+    connectionInfo: '{"id":"535ccce3-f1cc-4092-931f-6b88f20c5e7c","name":"logbook.i7seof1.mongodb.net","storageLocation":"GLOBAL","secretStorageLocation":"vscode.SecretStorage","connectionOptions":{"connectionString":"mongodb+srv://logins@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority","oidc":{}}}'
+  }
+]
+
+2024-02-21 20:45:05.656 [info] 2024-02-21T19:45:05.655Z connection controller INFO  COMPASS-DATA-SERVICE [
+  { __value: 1001000014 },
+  'Connection 4',
+  'Connecting',
+  {
+    url: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appName=mongodb-vscode',
+    csfle: null
+  }
+]
+
+2024-02-21 20:45:05.656 [info] 2024-02-21T19:45:05.656Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'mongodb-client-encryption',
+    error: "Cannot find module 'mongodb-client-encryption'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:45:05.656 [info] 2024-02-21T19:45:05.656Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000041 },
+  'compass-deps',
+  'Missing optional dependency',
+  {
+    name: 'os-dns-native',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- '
+  }
+]
+
+2024-02-21 20:45:05.656 [info] 2024-02-21T19:45:05.656Z connection controller ERROR DEVTOOLS-CONNECT [
+  { __value: 1000000038 },
+  'compass-connect',
+  'Resolving SRV record failed',
+  {
+    from: '',
+    error: "Cannot find module 'os-dns-native'\n" +
+      'Require stack:\n' +
+      '- /home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/vs/loader.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-amd.js\n' +
+      '- /opt/visual-studio-code/resources/app/out/bootstrap-fork.js\n' +
+      '- ',
+    duringLoad: true,
+    resolutionDetails: []
+  }
+]
+
+2024-02-21 20:45:05.658 [info] 2024-02-21T19:45:05.658Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000042 },
+  'compass-connect',
+  'Initiating connection attempt',
+  {
+    uri: 'mongodb+srv://<credentials>@logbook.i7seof1.mongodb.net/?retryWrites=true&w=majority&appName=mongodb-vscode',
+    driver: { name: 'nodejs', version: '6.3.0' },
+    devtoolsConnectVersion: '2.4.3',
+    host: 'logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:46:20.703 [info] 2024-02-21T19:46:20.703Z connection controller INFO  DEVTOOLS-CONNECT [
+  { __value: 1000000037 },
+  'compass-connect',
+  'Connection attempt finished',
+  undefined
+]
+
+2024-02-21 20:46:20.703 [info] 2024-02-21T19:46:20.703Z connection controller DEBUG Connection Attempt [
+  { __value: 1001000279 },
+  'connect',
+  'connection attempt failed',
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net'
+  }
+]
+
+2024-02-21 20:46:20.704 [info] 2024-02-21T19:46:20.704Z connection controller ERROR Failed to connect by a connection id [
+  [Error: querySrv ETIMEOUT _mongodb._tcp.logbook.i7seof1.mongodb.net
+  	at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:252:17)] {
+    errno: undefined,
+    code: 'ETIMEOUT',
+    syscall: 'querySrv',
+    hostname: '_mongodb._tcp.logbook.i7seof1.mongodb.net',
+    vslsStack: [ CallSite {} ]
+  }
+]
+
+2024-02-21 20:46:31.328 [info] 2024-02-21T19:46:31.328Z telemetry ERROR Failed to track telemetry [
+  [TypeError: fetch failed
+  	at Object.fetch (node:internal/deps/undici/undici:11576:11)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async E.send (/home/aj/.vscode/extensions/mongodb.mongodb-vscode-1.5.0/dist/extension.js:489:815208)] {
+    cause: [Error: connect ECONNREFUSED 0.0.0.0:443
+    	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)] {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '0.0.0.0',
+      port: 443,
+      vslsStack: [Array]
+    }
+  }
+]
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.423Z extension INFO  Deactivating extension... []
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.423Z connection controller INFO  Disconnect called, currently connected to [ null ]
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.423Z language server controller INFO  Changing MongoDBService active connection... [ { connectionId: null } ]
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.424Z connection controller INFO  Disconnect called, currently connected to [ null ]
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.424Z language server controller INFO  Changing MongoDBService active connection... [ { connectionId: null } ]
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.435Z language server controller INFO  Deactivating the language server... []
+
+2024-02-21 21:44:30.435 [info] 2024-02-21T20:44:30.435Z language server controller INFO  Deactivating the language server... []
+

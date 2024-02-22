@@ -1,0 +1,74 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240116_121304
+====================================================================================================
+
+1001  |Info:    Saving detector settings
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |             Detecting I2C interfaces               |
+1010  |Info:    ------------------------------------------------------
+1021  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2208 Subsystem: 1462:389B
+1021  |Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1462:7C84
+1021  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2208 Subsystem: 1462:389B
+1021  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7C84
+1021  |Info:    ------------------------------------------------------
+1021  |Info:    |               Detecting I2C devices                |
+1021  |Info:    ------------------------------------------------------
+1572  |Info:    ------------------------------------------------------
+1572  |Info:    |               Detecting I2C PCI devices            |
+1572  |Info:    ------------------------------------------------------
+1573  |Info:    ------------------------------------------------------
+1573  |Info:    |               Detecting HID devices                |
+1573  |Info:    ------------------------------------------------------
+1603  |Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+1603  |Info:    [Razer Ornata Chroma] Registering RGB controller
+3594  |Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+3668  |Info:    [MSI MAG X570 TOMAHAWK WIFI (MS-7C84)] Registering RGB controller
+3668  |Info:    ------------------------------------------------------
+3668  |Info:    |            Detecting libusb HID devices            |
+3668  |Info:    ------------------------------------------------------
+3750  |Info:    ------------------------------------------------------
+3750  |Info:    |              Detecting other devices               |
+3750  |Info:    ------------------------------------------------------
+3758  |Info:    ------------------------------------------------------
+3758  |Info:    |                Detection completed                 |
+3758  |Info:    ------------------------------------------------------
+3758  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+138798|Info:    ------------------------------------------------------
+138798|Info:    |               Start device detection               |
+138798|Info:    ------------------------------------------------------
+138798|Info:    Initializing HID interfaces: Success
+138805|Info:    ------------------------------------------------------
+138805|Info:    |             Detecting I2C interfaces               |
+138805|Info:    ------------------------------------------------------
+138806|Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2208 Subsystem: 1462:389B
+138806|Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1462:7C84
+138806|Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2208 Subsystem: 1462:389B
+138806|Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7C84
+138806|Info:    ------------------------------------------------------
+138806|Info:    |               Detecting I2C devices                |
+138806|Info:    ------------------------------------------------------
+139357|Info:    ------------------------------------------------------
+139357|Info:    |               Detecting I2C PCI devices            |
+139357|Info:    ------------------------------------------------------
+139357|Info:    ------------------------------------------------------
+139357|Info:    |               Detecting HID devices                |
+139357|Info:    ------------------------------------------------------
+139387|Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+139387|Info:    [Razer Ornata Chroma] Registering RGB controller
+139965|Info:    [G502 LIGHTSPEED Wireless Gaming Mouse] Registering RGB controller
+140039|Info:    [MSI MAG X570 TOMAHAWK WIFI (MS-7C84)] Registering RGB controller
+140039|Info:    ------------------------------------------------------
+140039|Info:    |            Detecting libusb HID devices            |
+140039|Info:    ------------------------------------------------------
+140101|Info:    ------------------------------------------------------
+140101|Info:    |              Detecting other devices               |
+140101|Info:    ------------------------------------------------------
+140102|Info:    ------------------------------------------------------
+140102|Info:    |                Detection completed                 |
+140102|Info:    ------------------------------------------------------
+140102|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
