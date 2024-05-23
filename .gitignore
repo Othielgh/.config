@@ -1,6 +1,6 @@
 cef_user_data/
 dconf/
-discod/
+discord/
 dolphinrc
 dunst/
 glib-2.0/
@@ -13,3 +13,19 @@ obsidian/
 Postman/
 Proton/
 vlc/
+Code/
+OpenRGB/logs/
+BraveSoftware/
+GIMP/
+MultiViewer for F1/
+OpenRGB/turqouis.orp
+Thunar/renamerrc
+github-copilot/
+gnuradio/
+gqrx/
+gtk-2.0/
+gtk-4.0/
+obs-studio/
+sdrpp/
+spotify-flags.conf
+spotify/

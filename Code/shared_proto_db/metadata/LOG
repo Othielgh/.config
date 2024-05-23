@@ -1,2 +1,3 @@
-2024/02/11-12:16:55.166 f5d Creating DB /home/aj/.config/Code/shared_proto_db/metadata since it was missing.
-2024/02/11-12:16:55.176 f5d Reusing MANIFEST /home/aj/.config/Code/shared_proto_db/metadata/MANIFEST-000001
+2024/04/09-19:46:21.544 7147 Reusing MANIFEST /home/aj/.config/Code/shared_proto_db/metadata/MANIFEST-000001
+2024/04/09-19:46:21.544 7147 Recovering log #3
+2024/04/09-19:46:21.544 7147 Reusing old log /home/aj/.config/Code/shared_proto_db/metadata/000003.log 

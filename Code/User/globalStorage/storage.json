@@ -7,27 +7,28 @@
             "file:///media/Projects/Projects/Programming/JS/Book-collection": "__default__profile__",
             "file:///media/Projects/Projects/Programming/JS/NodeJS%20course/Main%20course": "__default__profile__",
             "file:///media/Projects/Projects/Programming/Web/Webdev%20Bootcamp": "__default__profile__",
-            "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev": "__default__profile__",
-            "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev/PROJECTS/Fullstack%20BLOG": "__default__profile__"
+            "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev/PROJECTS/Fullstack%20BLOG": "__default__profile__",
+            "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1714822647561": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "a05ce519f7c5e7f6da7e9351932a9fa743343ed32b0bf540b96044432e9ba94f",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev/PROJECTS/Fullstack%20BLOG"
+                "backupFolder": "1714822647561"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev/PROJECTS/Fullstack%20BLOG",
-            "backupPath": "/home/aj/.config/Code/Backups/732fe9a601787d9e143933498bd3c1ab",
+            "backupPath": "/home/aj/.config/Code/Backups/1714822647561",
             "uiState": {
                 "mode": 0,
                 "x": 5,
@@ -1707,7 +1708,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
