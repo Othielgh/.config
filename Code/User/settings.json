@@ -113,5 +113,7 @@
         "[yaml]": {
             "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
-        "editor.unicodeHighlight.invisibleCharacters": false
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.largeFileOptimizations": false,
+        "liveServer.settings.donotVerifyTags": true
 }

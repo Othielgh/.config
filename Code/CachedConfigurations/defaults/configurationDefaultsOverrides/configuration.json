@@ -1,1 +1,1 @@
-{"C_Cpp.debugShortcut":false,"typescript.tsserver.experimental.useVsCodeWatcher":true,"python.analysis.addImport.heuristics":true,"editor.experimental.asyncTokenization":true,"workbench.chat.experimental.showWelcomeView":true}
+{"editor.experimental.asyncTokenization":true,"inlineChat.experimental.textButtons":true,"C_Cpp.debugShortcut":false,"python.analysis.experimentalserver":true,"cmake.configureOnOpen":true}

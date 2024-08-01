@@ -8,33 +8,48 @@
             "file:///media/Projects/Projects/Programming/JS/NodeJS%20course/Main%20course": "__default__profile__",
             "file:///media/Projects/Projects/Programming/Web/Webdev%20Bootcamp": "__default__profile__",
             "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev/PROJECTS/Fullstack%20BLOG": "__default__profile__",
-            "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev": "__default__profile__"
+            "file:///media/Projects/Projects/Programming/Web/Full%20Stack%20Webdev": "__default__profile__",
+            "file:///home/aj/Documents": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/CSS%20-%20My%20Site": "__default__profile__",
+            "file:///media/Projects/Programming/Web/FoodReview": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/HTML%20-%20Personal%20Site": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/DOM%20Challenge/DOM%20Challenge%20Starting%20Files": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/Dicee%20Challenge": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/Drum%20Kit": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/jquery": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/simon-game": "__default__profile__",
+            "file:///home/aj/.local/share/komikku/local": "__default__profile__",
+            "file:///media/Multimedia/Comics": "__default__profile__",
+            "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/EJS": "__default__profile__"
         },
-        "emptyWindows": {
-            "1714822647561": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "a05ce519f7c5e7f6da7e9351932a9fa743343ed32b0bf540b96044432e9ba94f",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1714822647561"
+                "folderUri": "file:///media/Multimedia/Comics"
+            },
+            {
+                "folderUri": "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/EJS"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/aj/.config/Code/Backups/1714822647561",
+            "folder": "file:///media/Projects/Programming/Web/Webdev%20Bootcamp/EJS",
+            "backupPath": "/home/aj/.config/Code/Backups/55f83856fa028991736d6d4d67cd9f2f",
             "uiState": {
-                "mode": 0,
-                "x": 5,
-                "y": 50,
-                "width": 2550,
-                "height": 1385
+                "mode": 1,
+                "x": 2562,
+                "y": 47,
+                "width": 2556,
+                "height": 1391
             }
         },
         "openedWindows": []
@@ -1708,9 +1723,10 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "statusBarHeight": 22,
-            "windowBorder": false
+            "windowBorder": true
         }
-    }
+    },
+    "telemetry.devDeviceId": "b30c9bf3-f72a-4635-bd5e-845612c9b74e"
 }
