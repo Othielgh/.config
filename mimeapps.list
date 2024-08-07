@@ -1,9 +1,0 @@
-[Default Applications]
-application/octet-stream=org.kde.okteta.desktop
-x-scheme-handler/postman=Postman.desktop
-image/jpeg=viewnior.desktop
-
-[Added Associations]
-application/octet-stream=org.kde.okteta.desktop;
-image/jpeg=gimp.desktop;viewnior.desktop;
-video/mp4=vlc.desktop;
