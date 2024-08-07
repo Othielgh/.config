@@ -1,14 +1,16 @@
-Flipper\ Devices\ Inc/
-MongoDB\ Compass/
 BraveSoftware/
+autostart/
 Code/
+Flipper\ Devices\ Inc/
 FreeCAD/
 GIMP/
+MongoDB\ Compass/
 MultiViewer for F1/
 OpenComic/
 OpenRGB/
 Postman/
 Proton/
+QtProject.conf
 Thunar/
 cef_user_data/
 com.joaomgcd.taskerpermissions/
@@ -16,6 +18,7 @@ dconf/
 discord/
 dolphinrc
 dunst/
+electron25-flags.conf
 github-copilot/
 glib-2.0/
 gnuradio/
@@ -27,10 +30,13 @@ jellyfin.org
 kde.org
 looking-glass/
 mcomix/
+mimeapps.list
 nvim.bak/
 nwg-look
 obs-studio/
 obsidian/
+oktetarc
+pavucontrol.ini
 pgadmin4/
 pipewire/
 pulse/
@@ -41,13 +47,8 @@ simple-update-notifier/
 spotify-flags.conf
 spotify/
 systemd/
+user-dirs.dirs
+user-dirs.locale
 vlc/
 xfce4/
 xsettingsd/
-QtProject.conf
-electron25-flags.conf
-mimeapps.list
-oktetarc
-pavucontrol.ini
-user-dirs.dirs
-user-dirs.locale
