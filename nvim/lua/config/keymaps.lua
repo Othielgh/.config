@@ -1,72 +1,132 @@
-local discipline = require("craftzdog.discipline")
+-- Keymaps are automatically loaded on the VeryLazy event
+-- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+-- Add any additional keymaps here
+local Util = require("lazyvim.util")
+local keymap = vim.keymap.set
+-- Silent keymap option
+local opts = { silent = true }
 
-discipline.cowboy()
+-- Press jj,jk fast to enter
+keymap("i", "jj", "<ESC>", opts)
+keymap("i", "jk", "<ESC>", opts)
 
-local keymap = vim.keymap
-local opts = { noremap = true, silent = true }
+-- Close buffers
+if Util.has("mini.bufremove") then
+  keymap("n", "<S-q>", function()
+    require("mini.bufremove").delete(0, false)
+    local bufs = vim.fn.getbufinfo({ buflisted = true })
+    -- open alpha if no buffers are left
+    if not bufs[2] and Util.has("alpha-nvim") then
+      require("alpha").start(true)
+    end
+  end, opts)
+else
+  keymap("n", "<S-q>", "<cmd>bd<CR>", opts)
+end
 
--- Do things without affecting the registers
-keymap.set("n", "x", '"_x')
-keymap.set("n", "<Leader>p", '"0p')
-keymap.set("n", "<Leader>P", '"0P')
-keymap.set("v", "<Leader>p", '"0p')
-keymap.set("n", "<Leader>c", '"_c')
-keymap.set("n", "<Leader>C", '"_C')
-keymap.set("v", "<Leader>c", '"_c')
-keymap.set("v", "<Leader>C", '"_C')
-keymap.set("n", "<Leader>d", '"_d')
-keymap.set("n", "<Leader>D", '"_D')
-keymap.set("v", "<Leader>d", '"_d')
-keymap.set("v", "<Leader>D", '"_D')
+-- Dashboard
+-- Add keymap to open alpha dashboard
+keymap("n", "<leader>;", function()
+  -- close all open buffers before open dashboard
+  for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do
+    local buftype = vim.api.nvim_buf_get_option(bufnr, "buftype")
+    if buftype ~= "terminal" then
+      vim.api.nvim_buf_delete(bufnr, { force = true })
+    end
+  end
 
--- Increment/decrement
-keymap.set("n", "+", "<C-a>")
-keymap.set("n", "-", "<C-x>")
-
--- Delete a word backwards
-keymap.set("n", "dw", 'vb"_d')
-
--- Select all
-keymap.set("n", "<C-a>", "gg<S-v>G")
-
--- Save with root permission (not working for now)
---vim.api.nvim_create_user_command('W', 'w !sudo tee > /dev/null %', {})
-
--- Disable continuations
-keymap.set("n", "<Leader>o", "o<Esc>^Da", opts)
-keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
-
--- Jumplist
-keymap.set("n", "<C-m>", "<C-i>", opts)
-
--- New tab
-keymap.set("n", "te", ":tabedit")
-keymap.set("n", "<tab>", ":tabnext<Return>", opts)
-keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
--- Split window
-keymap.set("n", "ss", ":split<Return>", opts)
-keymap.set("n", "sv", ":vsplit<Return>", opts)
--- Move window
-keymap.set("n", "sh", "<C-w>h")
-keymap.set("n", "sk", "<C-w>k")
-keymap.set("n", "sj", "<C-w>j")
-keymap.set("n", "sl", "<C-w>l")
-
--- Resize window
-keymap.set("n", "<C-w><left>", "<C-w><")
-keymap.set("n", "<C-w><right>", "<C-w>>")
-keymap.set("n", "<C-w><up>", "<C-w>+")
-keymap.set("n", "<C-w><down>", "<C-w>-")
-
--- Diagnostics
-keymap.set("n", "<C-j>", function()
-	vim.diagnostic.goto_next()
+  if Util.has("alpha-nvim") then
+    require("alpha").start(true)
+  end
 end, opts)
 
-keymap.set("n", "<leader>r", function()
-	require("craftzdog.hsl").replaceHexWithHSL()
-end)
+-- NullLs Info keymap
+if Util.has("none-ls.nvim") then
+  keymap("n", "<leader>cn", "<cmd>NullLsInfo<CR>", opts)
+end
 
-keymap.set("n", "<leader>i", function()
-	require("craftzdog.lsp").toggleInlayHints()
-end)
+-- Better paste
+-- remap "p" in visual mode to delete the highlighted text without overwriting your yanked/copied text, and then paste the content from the unnamed register.
+keymap("v", "p", '"_dP', opts)
+
+-- Copy whole file content to clipboard with C-c
+keymap("n", "<C-c>", ":%y+<CR>", opts)
+
+-- Visual --
+-- Stay in indent mode
+keymap("v", "<", "<gv", opts)
+keymap("v", ">", ">gv", opts)
+
+-- Move live up or down
+-- moving
+keymap("n", "<A-Down>", ":m .+1<CR>", opts)
+keymap("n", "<A-Up>", ":m .-2<CR>", opts)
+keymap("i", "<A-Down>", "<Esc>:m .+1<CR>==gi", opts)
+keymap("i", "<A-Up>", "<Esc>:m .-2<CR>==gi", opts)
+keymap("v", "<A-Down>", ":m '>+1<CR>gv=gv", opts)
+keymap("v", "<A-Up>", ":m '<-2<CR>gv=gv", opts)
+
+-- Show Lsp info
+keymap("n", "<leader>cl", "<cmd>LspInfo<CR>", opts)
+
+-- Show references on telescope
+if Util.has("telescope.nvim") then
+  keymap("n", "gr", "<cmd>Telescope lsp_references<CR>")
+end
+
+-- LspSaga
+if Util.has("lspsaga.nvim") then
+  -- LSP finder - Find the symbol's definition
+  keymap("n", "gh", "<cmd>Lspsaga lsp_finder<CR>")
+
+  -- Code action
+  keymap({ "n", "v" }, "ca", "<cmd>Lspsaga code_action<CR>")
+
+  -- Rename all occurrences of the hovered word for the entire file
+  keymap("n", "cr", "<cmd>Lspsaga rename<CR>")
+
+  -- Rename all occurrences of the hovered word for the selected files
+  keymap("n", "cR", "<cmd>Lspsaga rename ++project<CR>")
+
+  -- Peek definition
+  keymap("n", "gp", "<cmd>Lspsaga peek_definition<CR>")
+
+  -- Go to definition
+  keymap("n", "gD", "<cmd>Lspsaga goto_definition<CR>")
+
+  -- Go to type definition
+  keymap("n", "gt", "<cmd>Lspsaga goto_type_definition<CR>")
+
+  -- Diagnostic jump can use `<c-o>` to jump back
+  keymap("n", "[e", "<cmd>Lspsaga diagnostic_jump_prev<CR>")
+  keymap("n", "]e", "<cmd>Lspsaga diagnostic_jump_next<CR>")
+
+  -- Diagnostic jump with filters such as only jumping to an error
+  keymap("n", "[E", function()
+    require("lspsaga.diagnostic"):goto_prev({ severity = vim.diagnostic.severity.ERROR })
+  end)
+  keymap("n", "]E", function()
+    require("lspsaga.diagnostic"):goto_next({ severity = vim.diagnostic.severity.ERROR })
+  end)
+
+  -- Toggle Outline
+  keymap("n", "<leader>o", "<cmd>Lspsaga outline<CR>")
+
+  -- Pressing the key twice will enter the hover window
+  keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>")
+end
+
+-- Trouble
+-- Add keymap only show FIXME
+if Util.has("todo-comments.nvim") then
+  -- show fixme on telescope
+  keymap("n", "<leader>xf", "<cmd>TodoTelescope keywords=FIX,FIXME<CR>")
+end
+
+-- Gitsigns
+-- Add toggle gitsigns blame line
+if Util.has("gitsigns.nvim") then
+  keymap("n", "<leader>ub", "<cmd>lua require('gitsigns').toggle_current_line_blame()<CR>", {
+    desc = "Toggle current line blame",
+  })
+end

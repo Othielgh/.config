@@ -1,13 +1,9 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.lang.markdown",
-    "lazyvim.plugins.extras.lang.python",
-    "lazyvim.plugins.extras.lang.sql",
-    "lazyvim.plugins.extras.lang.yaml"
+    "lazyvim.plugins.extras.lang.markdown"
   ],
   "news": {
-    "NEWS.md": "6520",
-    "doc/news.txt": "24450"
+    "NEWS.md": "6520"
   },
   "version": 6
 }
