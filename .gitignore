@@ -55,3 +55,4 @@ user-dirs.locale
 vlc/
 xfce4/
 xsettingsd/
+zsh/.zcompdump*
