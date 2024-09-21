@@ -4,3 +4,5 @@
 # references: http://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html
 # video: https://www.youtube.com/watch?v=WTTIGjZAMGg
 # import this file into the .zshrc fie with '. ~/.zsh_aliases'
+alias cat='bat'
+alias ll='ls -lah'
