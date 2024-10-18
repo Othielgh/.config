@@ -60,3 +60,18 @@ zshbackup/
 darktable/
 configstore/
 zsh/.zcompdump*
+Raspberry Pi/
+baloofileinformationrc
+blender/
+cura/
+google-chrome/
+htop/
+kwalletrc
+libvirt/
+swtpm-localca.*
+swtpm*
+var/*
+trashrc
+va/
+viewnior/
+
