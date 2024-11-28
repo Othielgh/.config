@@ -74,7 +74,7 @@ ZSH_THEME="spaceship"
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions fzf-zsh-plugin)
 
 source $ZDOTDIR/.oh-my-zsh/oh-my-zsh.sh
-
+source .config/zsh/.oh-my-zsh/plugins/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 # User configuration
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"
@@ -94,6 +94,7 @@ bindkey " " globalias                 # space key to expand globalalias
 # bindkey "^ " magic-space            # control-space to bypass completion
 bindkey "^[[Z" magic-space            # shift-tab to bypass completion
 bindkey -M isearch " " magic-space    # normal space during searches
+bindkey '^I' fzf_completion
 . ~/.config/zsh/.zsh_aliases
 #}}}
 
