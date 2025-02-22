@@ -2,8 +2,8 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
-export ZSH="$ZDOTDIR/.oh-my-zsh"
-
+export ZSH="$ZDOTDIR/.oh-my-zsh/"
+export FZF_BASE="$ZSH/plugins/fzf/"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,10 +71,10 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions fzf-zsh-plugin)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions fzf)
 
 source $ZDOTDIR/.oh-my-zsh/oh-my-zsh.sh
-source .config/zsh/.oh-my-zsh/plugins/fzf-tab-completion/zsh/fzf-zsh-completion.sh
+source ~/.config/zsh/.oh-my-zsh/plugins/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 # User configuration
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"

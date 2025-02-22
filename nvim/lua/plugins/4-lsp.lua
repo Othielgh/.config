@@ -43,7 +43,7 @@ return {
     event = { "InsertEnter", "CmdlineEnter" },
     dependencies = {
       {
-        { "L3MON4D3/LuaSnip", build = "make install_jsregexp" },
+        -- { "L3MON4D3/LuaSnip", build = "make install_jsregexp" },
         "rafamadriz/friendly-snippets",
         "onsails/lspkind.nvim",
         "hrsh7th/cmp-buffer",
@@ -61,16 +61,16 @@ return {
       local cmp_action = lsp_zero.cmp_action()
       local cmp_select_opts = { behavior = cmp.SelectBehavior.Select }
 
-      local load_snippets = require("luasnip.loaders.from_vscode")
-      load_snippets.lazy_load({
-        paths = "~/.config/nvim/my_snippets",
-      })
+      --local load_snippets = require("luasnip.loaders.from_vscode")
+      --load_snippets.lazy_load({
+      --  paths = "~/.config/nvim/my_snippets",
+      -- })
       load_snippets.lazy_load({
         exclude = { "c", "cpp" },
       })
 
       local preferred_sources = {
-        { name = "luasnip" },
+        -- name = "luasnip" },
         { name = "nvim_lsp" },
         { name = "nvim_lua" },
         { name = "path" },
@@ -136,7 +136,7 @@ return {
           ghost_text = false,
         },
         sources = cmp.config.sources({
-          { name = "luasnip" },
+          -- { name = "luasnip" },
           { name = "nvim_lsp" },
           { name = "nvim_lua" },
           { name = "path" },
@@ -472,25 +472,25 @@ return {
 
       vim.filetype.add({ extension = { pro = "prolog" } })
 
-      local luasnip = require("luasnip")
-      -- Neovim by default does not recognize .ejs files (test with :echo &filetype)
-      vim.filetype.add({ extension = { ejs = "ejs" } })
-      luasnip.filetype_set("ejs", { "html", "javascript", "ejs" })
-
-      local luasnip_fix_augroup = vim.api.nvim_create_augroup("LuaSnipHistory", { clear = true })
-      vim.api.nvim_create_autocmd("ModeChanged", {
-        pattern = "*",
-        callback = function()
-          if
-            ((vim.v.event.old_mode == "s" and vim.v.event.new_mode == "n") or vim.v.event.old_mode == "i")
-            and luasnip.session.current_nodes[vim.api.nvim_get_current_buf()]
-            and not luasnip.session.jump_active
-          then
-            luasnip.unlink_current()
-          end
-        end,
-        group = luasnip_fix_augroup,
-      })
+      --      local luasnip = require("luasnip")
+      --      -- Neovim by default does not recognize .ejs files (test with :echo &filetype)
+      --      vim.filetype.add({ extension = { ejs = "ejs" } })
+      --      luasnip.filetype_set("ejs", { "html", "javascript", "ejs" })
+      --
+      --      local luasnip_fix_augroup = vim.api.nvim_create_augroup("LuaSnipHistory", { clear = true })
+      --      vim.api.nvim_create_autocmd("ModeChanged", {
+      --        pattern = "*",
+      --        callback = function()
+      --          if
+      --            ((vim.v.event.old_mode == "s" and vim.v.event.new_mode == "n") or vim.v.event.old_mode == "i")
+      --            and luasnip.session.current_nodes[vim.api.nvim_get_current_buf()]
+      --            and not luasnip.session.jump_active
+      --          then
+      --            luasnip.unlink_current()
+      --          end
+      --        end,
+      --        group = luasnip_fix_augroup,
+      --      })
     end,
   },
 }
