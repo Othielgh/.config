@@ -1,100 +1,106 @@
+-- Highlight, edit, and navigate code
 return {
-  -- Syntax highlithing and many more features
-  {
-    "nvim-treesitter/nvim-treesitter",
-    -- lazy = false,
-    build = ":TSUpdate",
-    event = "VeryLazy",
-    config = function()
-      require("nvim-treesitter.configs").setup({
-        ensure_installed = {
-          "bash",
-          "c",
-          "cmake",
-          "cpp",
-          "css",
-          "diff",
-          "gitcommit",
-          "gitignore",
-          "go",
-          "haskell",
-          "html",
-          "java",
-          "javascript",
-          "json",
-          "lua",
-          "make",
-          "markdown",
-          "markdown_inline",
-          "python",
-          "regex",
-          "toml",
-          "vim",
-          "vimdoc",
-          "yaml",
-        },
-
-        -- Install parsers synchronously (only applied to `ensure_installed`)
-        sync_install = false,
-
-        -- Automatically install missing parsers when entering buffer
-        -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
-        auto_install = true,
-
-        highlight = {
-          enable = true,
-          additional_vim_regex_highlighting = false,
-          -- disable for larger files
-          disable = function(lang, buf)
-            local max_filesize = 10 * 1024 -- 10 KB
-            local ok, stats = pcall(vim.uv.fs_stat, vim.api.nvim_buf_get_name(buf))
-            if ok and stats and stats.size > max_filesize then
-              return true
-            end
-          end,
-        },
-        indent = { enable = true, disable = { "python", "markdown" } },
-        incremental_selection = {
-          enable = false,
-        },
-
-        -- autoclose and autorename html tag
-        autotag = {
-          enable = true,
-        },
-
-        -- see https://github.com/andymass/vim-matchup?tab=readme-ov-file#tree-sitter-integration
-        matchup = {
-          enable = true,
-        },
-      })
-
-      -- temporary fix for school projects
-      vim.treesitter.language.register("html", "ejs")
-      vim.treesitter.language.register("javascript", "ejs")
-      vim.treesitter.language.register("cpp", "conf")
-      vim.treesitter.language.register("cpp", "fsharp")
-      vim.filetype.add({ extension = { ypp = "ypp" } })
-      vim.treesitter.language.register("cpp", "ypp")
-      vim.treesitter.language.register("cpp", "lex")
-    end,
+  'nvim-treesitter/nvim-treesitter',
+  build = ':TSUpdate',
+  dependencies = {
+    'nvim-treesitter/nvim-treesitter-textobjects',
   },
-  {
-    "nvim-treesitter/nvim-treesitter-context",
-    event = "VeryLazy",
-    opts = {
-      enable = true, -- :TSContextToggle
-      max_lines = 0, -- How many lines the window should span. Values <= 0 mean no limit.
-      min_window_height = 0, -- Minimum editor window height to enable context. Values <= 0 mean no limit.
-      line_numbers = true,
-      multiline_threshold = 5, -- Maximum number of lines to show for a single context
-      trim_scope = "outer", -- Which context lines to discard if `max_lines` is exceeded. Choices: 'inner', 'outer'
-      mode = "cursor", -- Line used to calculate context. Choices: 'cursor', 'topline'
-      -- Separator between context and content. Should be a single character string, like '-'.
-      -- When separator is set, the context will only show up when there are at least 2 lines above cursorline.
-      separator = "󰮸",
-      zindex = 20, -- The Z-index of the context window
-      on_attach = nil, -- (fun(buf: integer): boolean) return false to disable attaching
-    },
-  },
+  config = function()
+    require('nvim-treesitter.configs').setup {
+      -- Add languages to be installed here that you want installed for treesitter
+      ensure_installed = {
+        'lua',
+        'python',
+        'javascript',
+        'typescript',
+        'vimdoc',
+        'vim',
+        'regex',
+        'c',
+        'sql',
+        'dockerfile',
+        'toml',
+        'json',
+        'java',
+        'groovy',
+        'go',
+        'gitignore',
+        'graphql',
+        'yaml',
+        'make',
+        'cmake',
+        'markdown',
+        'markdown_inline',
+        'bash',
+        'tsx',
+        'css',
+        'html',
+      },
+
+      -- Autoinstall languages that are not installed
+      auto_install = true,
+
+      highlight = { enable = true },
+      indent = { enable = true },
+      incremental_selection = {
+        enable = true,
+        keymaps = {
+          init_selection = '<c-space>',
+          node_incremental = '<c-space>',
+          scope_incremental = '<c-s>',
+          node_decremental = '<M-space>',
+        },
+      },
+      textobjects = {
+        select = {
+          enable = true,
+          lookahead = true, -- Automatically jump forward to textobj, similar to targets.vim
+          keymaps = {
+            -- You can use the capture groups defined in textobjects.scm
+            ['aa'] = '@parameter.outer',
+            ['ia'] = '@parameter.inner',
+            ['af'] = '@function.outer',
+            ['if'] = '@function.inner',
+            ['ac'] = '@class.outer',
+            ['ic'] = '@class.inner',
+          },
+        },
+        move = {
+          enable = true,
+          set_jumps = true, -- whether to set jumps in the jumplist
+          goto_next_start = {
+            [']m'] = '@function.outer',
+            [']]'] = '@class.outer',
+          },
+          goto_next_end = {
+            [']M'] = '@function.outer',
+            [']['] = '@class.outer',
+          },
+          goto_previous_start = {
+            ['[m'] = '@function.outer',
+            ['[['] = '@class.outer',
+          },
+          goto_previous_end = {
+            ['[M'] = '@function.outer',
+            ['[]'] = '@class.outer',
+          },
+        },
+        swap = {
+          enable = true,
+          swap_next = {
+            ['<leader>a'] = '@parameter.inner',
+          },
+          swap_previous = {
+            ['<leader>A'] = '@parameter.inner',
+          },
+        },
+      },
+    }
+
+    -- Register additional file extensions
+    vim.filetype.add { extension = { tf = 'terraform' } }
+    vim.filetype.add { extension = { tfvars = 'terraform' } }
+    vim.filetype.add { extension = { pipeline = 'groovy' } }
+    vim.filetype.add { extension = { multibranch = 'groovy' } }
+  end,
 }
