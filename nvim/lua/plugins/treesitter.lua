@@ -9,6 +9,7 @@ return {
     require('nvim-treesitter.configs').setup {
       -- Add languages to be installed here that you want installed for treesitter
       ensure_installed = {
+        'c_sharp',
         'lua',
         'python',
         'javascript',
@@ -16,7 +17,7 @@ return {
         'vimdoc',
         'vim',
         'regex',
-        'c',
+        'terraform',
         'sql',
         'dockerfile',
         'toml',

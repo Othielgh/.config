@@ -23,6 +23,9 @@ return { -- Autocompletion
     'hrsh7th/cmp-nvim-lsp',
     'hrsh7th/cmp-buffer',
     'hrsh7th/cmp-path',
+    'ogaken-1/cmp-tsnip',
+    'Jezda1337/nvim-html-css',
+    'hrsh7th/cmp-omni',
 
     -- Adds a number of user-friendly snippets
     'rafamadriz/friendly-snippets',
@@ -73,10 +76,10 @@ return { -- Autocompletion
       --     documentation = cmp.config.window.bordered(),
       -- },
       mapping = cmp.mapping.preset.insert {
-        ['<C-j>'] = cmp.mapping.select_next_item(),       -- Select the [n]ext item
-        ['<C-k>'] = cmp.mapping.select_prev_item(),       -- Select the [p]revious item
+        ['<C-j>'] = cmp.mapping.select_next_item(), -- Select the [n]ext item
+        ['<C-k>'] = cmp.mapping.select_prev_item(), -- Select the [p]revious item
         ['<CR>'] = cmp.mapping.confirm { select = true }, -- Accept the completion with Enter.
-        ['<C-c>'] = cmp.mapping.complete {},              -- Manually trigger a completion from nvim-cmp.
+        ['<C-c>'] = cmp.mapping.complete {}, -- Manually trigger a completion from nvim-cmp.
 
         -- Think of <c-l> as moving to the right of your snippet expansion.
         --  So if you have a snippet that's like:
@@ -122,6 +125,9 @@ return { -- Autocompletion
         { name = 'luasnip' },
         { name = 'buffer' },
         { name = 'path' },
+        { name = 'omnisharp' },
+        { name = 'nvim-html-css' },
+        { name = 'tsnip' },
       },
       formatting = {
         fields = { 'kind', 'abbr', 'menu' },
@@ -134,6 +140,8 @@ return { -- Autocompletion
             luasnip = '[Snippet]',
             buffer = '[Buffer]',
             path = '[Path]',
+            omnisharp = '[Omni]',
+            tsnip = '[Tsnip]',
           })[entry.source.name]
           return vim_item
         end,
