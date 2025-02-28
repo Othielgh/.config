@@ -23,8 +23,7 @@ return { -- Autocompletion
     'hrsh7th/cmp-nvim-lsp',
     'hrsh7th/cmp-buffer',
     'hrsh7th/cmp-path',
-    'ogaken-1/cmp-tsnip',
-    'Jezda1337/nvim-html-css',
+    'hrsh7th/cmp-vsnip',
     'hrsh7th/cmp-omni',
 
     -- Adds a number of user-friendly snippets
@@ -126,8 +125,7 @@ return { -- Autocompletion
         { name = 'buffer' },
         { name = 'path' },
         { name = 'omnisharp' },
-        { name = 'nvim-html-css' },
-        { name = 'tsnip' },
+        { name = 'vsnip' },
       },
       formatting = {
         fields = { 'kind', 'abbr', 'menu' },
@@ -141,7 +139,7 @@ return { -- Autocompletion
             buffer = '[Buffer]',
             path = '[Path]',
             omnisharp = '[Omni]',
-            tsnip = '[Tsnip]',
+            vsnip = '[Vsnip]',
           })[entry.source.name]
           return vim_item
         end,

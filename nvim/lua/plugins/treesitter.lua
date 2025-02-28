@@ -96,8 +96,25 @@ return {
           },
         },
       },
+      -- https://github.com/windwp/nvim-ts-autotag
+      {
+        'windwp/nvim-ts-autotag',
+        opts = {
+          enable_close_on_slash = true, -- disable case: `<div /` become `<div /div>`
+          enable_rename = true,
+          enable_close = true,
+          filetypes = {
+            'html',
+            'javascript',
+            'javascriptreact',
+            'typescript',
+            'typescriptreact',
+            'vue',
+            'xml',
+          },
+        },
+      },
     }
-
     -- Register additional file extensions
     vim.filetype.add { extension = { tf = 'terraform' } }
     vim.filetype.add { extension = { tfvars = 'terraform' } }
