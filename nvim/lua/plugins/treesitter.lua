@@ -37,7 +37,7 @@ return {
         'css',
         'html',
       },
-
+      auto_tag = { enable = true },
       -- Autoinstall languages that are not installed
       auto_install = true,
 
