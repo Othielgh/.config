@@ -1,189 +1,144 @@
-@import "catppuccin/mocha.css";
-
-/* =============================== */
-/* Universal Styling */
 * {
     border: none;
-    border-radius: 0;
-    font-family: 'CaskaydiaCove NF', monospace;
-    font-size: 16px;
-    min-height: 0;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 10px;
 }
-/* =============================== */
 
-
-/* =============================== */
-/* Bar Styling */
-#waybar {
-    background: transparent;
-    color: @text;
-    margin: 5px 0;
+window#waybar {
+    background-color: rgba(43, 48, 59, 0);
+    transition-property: background-color;
+    transition-duration: .5s;
 }
-/* =============================== */
 
+#battery,
+#temperature,
+#cpu,
+#clock,
+#window,
+#workspaces,
+#custom-rofi,
+#custom-space,
+#tray,
+#pulseaudio,
+#backlight,
+#network,
+#custom-right,
+#custom-left {
+   color: @main-color;
+   background: rgba(36, 41, 50, 0.9);
+   margin: 4px 0px 4px 0px;
+   opacity: 1;
+   border: 0px solid #181825;
+}
 
-/* =============================== */
-/* Workspaces */
-#workspaces {
-	border-radius: 1rem;
-    margin: 5px;
-	/*background-color: @surface0;*/
-	margin-left: 1rem;
+tooltip {
+    background: @tool-bg;
+    color: @tool-color;
+    border-radius: 22px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
 }
 
 #workspaces button {
-    background-color: @surface0;
-    color: @mauve;
-    border-radius: 1rem;
-    margin: 0px 5px;
-    padding: 0px 10px;
-    transition: all 0.5s cubic-bezier(0.33, 1.0, 0.68, 1.0); /* easeInOutCubic */
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #ffffff;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
-    color: @lavender;
-    border-radius: 1rem;
-    padding: 0rem 1rem;
+    background: rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button:hover {
-	color: @lavender;
-	border-radius: 1rem;
-}
-/* =============================== */
-
-
-/* =============================== */
-/* Main Modules */
-#window,
-#tray,
-#backlight,
-#clock,
-#battery,
-#pulseaudio,
-#network,
-#mpd,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#custom-music,
-#custom-launcher,
-#custom-updates,
-#custom-nordvpn,
-#custom-notifications,
-#custom-power,
-#custom-weather {
-    background-color: @surface0;
-    color: @text;
-	border-radius: 1rem;
-	padding: 0.5rem 1rem;
-	margin: 5px 0;
-}
-/* =============================== */
-
-
-/* =============================== */
-/* System Monitoring Modules */
-#cpu, #memory, #temperature {
-    color: @blue;
+    background: #64727D;
+    border: none;
 }
 
-#disk {
-    color: @peach;
+#workspaces {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-/* =============================== */
 
-
-/* =============================== */
-/* Clock Module */
-#clock {
-    color: @flamingo;
+#custom-rofi {
+    color: #ffffff; 
+    padding-left: 0px;
+    padding-right: 10px;
 }
-/* =============================== */
 
+#temperature {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
+}
 
-/* =============================== */
-/* Battery Module */
-#battery {
-    color: @green;
+#temperature.critical {
+    color: #ff0000;
+    padding-left: 0px;
+    padding-right: 19px;
 }
-#battery.charging {
-    color: @green;
-}
-#battery.warning:not(.charging) {
-    color: @maroon;
-}
-#battery.critical:not(.charging) {
-    color: @red;
-}
-/* =============================== */
 
-
-/* =============================== */
-/* Backlight Module */
 #backlight {
-    color: @teal;
-    padding-right: 1.25rem;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
 }
-/* =============================== */
 
-
-/* =============================== */
-/* Network Module */
-#network {
-	color: @blue;
-    padding-right: 1.25rem;
-}
-/* =============================== */
-
-
-/* =============================== */
-/* PulseAudio Module */
 #pulseaudio {
-	color: @mauve;
-    padding-right: 1.20rem;
-}
-/* =============================== */
-
-/* =============================== */
-/* |       Custom Modules        | */
-/* =============================== */
-/* NordVPN Module */
-#custom-nordvpn {
-    color: @mauve;
-    padding-right: 1.25rem;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
 }
 
-/* Music/PlayerCTL Module */
-#custom-music {
-    color: @mauve;
-    border-radius: 1rem;
-    margin-left: 1rem;
+#battery {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
 }
 
-/* Launcher Module */
-#custom-launcher {
-    color: @mauve;
-    border-radius: 1rem;
+#tray {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-/* Updates Module */
-#custom-updates {
-    color: @sky;
+#network {
+   padding-left: 0px;
+   padding-right: 19px;
 }
 
-/* Powermenu Module */
-#custom-power {
-    color: @mauve;
-    margin-right: 1rem;
-    padding-right: 1.20rem;
+#clock {
+   color: #ffffff;
+   padding-left: 0px;
+   padding-right: 0px;
 }
 
-/* Notifications Module */
-#custom-notifications {
-    color: @mauve;
-    border-radius: 1rem;
-    padding-right: 1.25rem;
+#custom-right {
+    margin-right: 9px;
+    padding-right: 3px;
+    border-radius: 0px 22px 22px 0px;
 }
-/* =============================== */
+
+#custom-left {
+    margin-left: 9px;
+    padding-left: 3px;
+    border-radius: 22px 0px 0px 22px;
+}

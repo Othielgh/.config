@@ -93,3 +93,6 @@ retroarch/
 ripgrep-all/
 libreoffice/
 kwalletmanagerrc
+kicad/
+go/
+shutdowneverything.sh
