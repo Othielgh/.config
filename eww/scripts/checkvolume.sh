@@ -17,10 +17,11 @@ while true; do
   else
     newest_vol=$(eww get volume)
     if [ "$vol" == "$newest_vol" ]; then
-      if [[ $(eww get open_osd) == true ]];then
+      if [[ $(eww get open_osd) == true ]]; then
         eww update open_osd=false
         exit
       fi
     fi
   fi
 done
+
