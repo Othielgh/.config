@@ -23,7 +23,7 @@ keymap.set("n", "-", "<C-x>")
 keymap.set("n", "dw", 'vb"_d')
 
 --easy escape
-keymap.set("n", "jj", "<Esc>")
+keymap.set("i", "jj", "<Esc>")
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
