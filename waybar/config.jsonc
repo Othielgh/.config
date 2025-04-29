@@ -10,7 +10,7 @@
   "modules-left": [
     "custom/left",
     "custom/rofi",
-    "custom/space",
+    "custom/bar",
     "hyprland/window",
     "custom/right",
     "custom/left",
@@ -28,10 +28,12 @@
     "custom/left",
     "pulseaudio",
     "battery",
+    "custom/right",
+    "custom/left",
     "tray",
-    //"custom/right",
-    //"custom/left",
     "network",
+    "custom/right",
+    "custom/left",
     "clock",
     "custom/right",
   ],
@@ -72,13 +74,13 @@
     "on-click-right": "~/.config/waybar/network.py"
   },
   "temperature": {
-    // "thermal-zone": 2,
-    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-    // "critical-threshold": 80,
-    // "format-critical": "{temperatureC}°C ",
+    "thermal-zone": 2,
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-critical": "{temperatureC}°C ",
     "format": "{temperatureC}°C "
   },
-  "custom/space": {
+  "custom/bar": {
     "format": "┃ {}",
     "on-click": "~/.config/hypr/scripts/Rofi-launcher.sh"
   },
@@ -178,5 +180,5 @@
     "format": " ",
     "interval": "once",
     "tooltip": false
-  },
+  }
 }
