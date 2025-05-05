@@ -54,17 +54,17 @@ return {
         end
       end,
     },
-    highlight_overrides = {
-      mocha = function(colors)
-        return {
-          TodoComment = { fg = colors.base, bg = colors.yellow, style = { "bold" } },
-          TodoKeywordFIX = { fg = colors.base, bg = colors.red, style = { "bold" } },
-          TodoKeywordTODO = { fg = colors.base, bg = colors.blue, style = { "bold" } },
-          TodoKeywordHACK = { fg = colors.base, bg = colors.mauve, style = { "bold" } },
-          TodoKeywordWARN = { fg = colors.base, bg = colors.peach, style = { "bold" } },
-          TodoKeywordNOTE = { fg = colors.base, bg = colors.teal, style = { "bold" } },
-        }
-      end,
-    },
+    --     highlight_overrides = {
+    --       mocha = function(colors)
+    --         return {
+    --           TodoComment = { fg = colors.base, bg = colors.yellow, style = { "bold" } },
+    --           TodoKeywordFIX = { fg = colors.base, bg = colors.red, style = { "bold" } },
+    --           TodoKeywordTODO = { fg = colors.base, bg = colors.blue, style = { "bold" } },
+    --           TodoKeywordHACK = { fg = colors.base, bg = colors.mauve, style = { "bold" } },
+    --           TodoKeywordWARN = { fg = colors.base, bg = colors.peach, style = { "bold" } },
+    --           TodoKeywordNOTE = { fg = colors.base, bg = colors.teal, style = { "bold" } },
+    --         }
+    --       end,
+    --     },
   },
 }

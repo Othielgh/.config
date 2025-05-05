@@ -17,13 +17,9 @@
     "temperature",
     "backlight",
     "cpu",
-    "custom/right"
+    "custom/right",
   ],
-  "modules-center": [
-    "custom/left",
-    "hyprland/workspaces",
-    "custom/right"
-  ],
+  "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
   "modules-right": [
     "custom/left",
     "pulseaudio",
@@ -43,24 +39,15 @@
       "(.*) - Chromium": "$1",
       "(.*) - Brave Search": "$1",
       "(.*) - Outlook": "$1",
-      "(.*) Microsoft Teams": "$1"
+      "(.*) Microsoft Teams": "$1",
     },
-    "separate-outputs": true
+    "separate-outputs": true,
   },
   "cpu": {
     "interval": 10,
     "format": "󰍛 {usage}%",
     "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-    "format-icons": [
-      "▁",
-      "▂",
-      "▃",
-      "▄",
-      "▅",
-      "▆",
-      "▇",
-      "█"
-    ]
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
   },
   "network": {
     "tooltip": true,
@@ -71,22 +58,22 @@
     "format-disconnected": " 󰖪 ",
     "tooltip-format-disconnected": "Disconnected",
     "interval": 2,
-    "on-click-right": "~/.config/waybar/network.py"
+    "on-click-right": "~/.config/waybar/network.py",
   },
   "temperature": {
     "thermal-zone": 2,
     "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
     "critical-threshold": 80,
     "format-critical": "{temperatureC}°C ",
-    "format": "{temperatureC}°C "
+    "format": "{temperatureC}°C ",
   },
   "custom/bar": {
     "format": "┃ {}",
-    "on-click": "~/.config/hypr/scripts/Rofi-launcher.sh"
+    "on-click": "~/.config/hypr/scripts/Rofi-launcher.sh",
   },
   "custom/rofi": {
     "format": "{}",
-    "on-click": "~/.config/hypr/scripts/Rofi-launcher.sh"
+    "on-click": "~/.config/hypr/scripts/Rofi-launcher.sh",
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -97,32 +84,20 @@
       "2": [],
       "3": [],
       "4": [],
-      "5": []
-    }
+      "5": [],
+    },
   },
   "battery": {
     "states": {
       "good": 95,
       "warning": 30,
-      "critical": 20
+      "critical": 20,
     },
     "format": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{time} {icon}",
-    "format-icons": [
-      "󰂎",
-      "󰁺",
-      "󰁻",
-      "󰁼",
-      "󰁽",
-      "󰁾",
-      "󰁿",
-      "󰂀",
-      "󰂁",
-      "󰂂",
-      "󰁹"
-    ]
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
   },
   "pulseaudio": {
     "format": "{icon} {volume}",
@@ -143,42 +118,33 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [
-        "",
-        "",
-        ""
-      ]
-    }
+      "default": ["", "", ""],
+    },
   },
   "tray": {
     "icon-size": 20,
-    "spacing": 9
+    "spacing": 9,
   },
   "clock": {
     "format": " {:%H:%M}",
-    "on-click": "~/.config/eww/scripts/toggle_control_center.sh"
+    "on-click": "~/.config/eww/scripts/toggle_control_center.sh",
   },
   "backlight": {
     "device": "intel_backlight",
     "on-scroll-up": "light -A 7",
     "on-scroll-down": "light -U 7",
     "format": "{icon} {percent}%",
-    "format-icons": [
-      "",
-      "",
-      "",
-      ""
-    ]
+    "format-icons": ["", "", "", ""],
   },
   // modules for padding //
   "custom/left": {
     "format": " ",
     "interval": "once",
-    "tooltip": false
+    "tooltip": false,
   },
   "custom/right": {
     "format": " ",
     "interval": "once",
-    "tooltip": false
-  }
+    "tooltip": false,
+  },
 }
