@@ -8,9 +8,9 @@
   "passthrough": false,
   "gtk-layer-shell": true,
   "modules-left": [
-    "custom/left",
-    "custom/rofi",
-    "custom/bar",
+    //"custom/left",
+    //  "custom/rofi",
+    //    "custom/bar",
     "hyprland/window",
     "custom/right",
     "custom/left",

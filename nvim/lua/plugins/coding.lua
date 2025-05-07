@@ -1,15 +1,47 @@
 return {
-  "folke/todo-comments.nvim",
-  cmd = { "TodoTrouble", "TodoTelescope" },
-  event = "LazyFile",
-  opts = {},
-  -- stylua: ignore
-  keys = {
-    { "]t", function() require("todo-comments").jump_next() end, desc = "Next Todo Comment" },
-    { "[t", function() require("todo-comments").jump_prev() end, desc = "Previous Todo Comment" },
-    { "<leader>xt", "<cmd>Trouble todo toggle<cr>", desc = "Todo (Trouble)" },
-    { "<leader>xT", "<cmd>Trouble todo toggle filter = {tag = {TODO,FIX,FIXME}}<cr>", desc = "Todo/Fix/Fixme (Trouble)" },
-    { "<leader>st", "<cmd>TodoTelescope<cr>", desc = "Todo" },
-    { "<leader>sT", "<cmd>TodoTelescope keywords=TODO,FIX,FIXME<cr>", desc = "Todo/Fix/Fixme" },
+  -- Incremental rename
+  {
+    "smjonas/inc-rename.nvim",
+    cmd = "IncRename",
+    config = true,
+  },
+
+  -- Go forward/backward with square brackets
+  {
+    "echasnovski/mini.bracketed",
+    event = "BufReadPost",
+    config = function()
+      local bracketed = require("mini.bracketed")
+      bracketed.setup({
+        file = { suffix = "" },
+        window = { suffix = "" },
+        quickfix = { suffix = "" },
+        yank = { suffix = "" },
+        treesitter = { suffix = "n" },
+      })
+    end,
+  },
+
+  -- Better increase/descrease
+  {
+    "monaqa/dial.nvim",
+    -- stylua: ignore
+    keys = {
+      { "<C-a>", function() return require("dial.map").inc_normal() end, expr = true, desc = "Increment" },
+      { "<C-x>", function() return require("dial.map").dec_normal() end, expr = true, desc = "Decrement" },
+    },
+    config = function()
+      local augend = require("dial.augend")
+      require("dial.config").augends:register_group({
+        default = {
+          augend.integer.alias.decimal,
+          augend.integer.alias.hex,
+          augend.date.alias["%Y/%m/%d"],
+          augend.constant.alias.bool,
+          augend.semver.alias.semver,
+          augend.constant.new({ elements = { "let", "const" } }),
+        },
+      })
+    end,
   },
 }
