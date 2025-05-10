@@ -1,11 +1,12 @@
 return {
-
-  -- add gruvbox
-  {
-    "ellisonleao/gruvbox.nvim",
-    name = "gruvbox",
-    lazy = true,
-    priority = 1000,
-    opts = { background = "dark", transparent_mode = true },
-  },
+	{
+		"craftzdog/solarized-osaka.nvim",
+		lazy = true,
+		priority = 1000,
+		opts = function()
+			return {
+				transparent = true,
+			}
+		end,
+	},
 }
