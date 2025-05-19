@@ -51,7 +51,6 @@ session/
 simple-update-notifier/
 spotify-flags.conf
 spotify/
-systemd/
 user-dirs.dirs
 user-dirs.locale
 vlc/
@@ -97,3 +96,6 @@ kicad/
 go/
 shutdowneverything.sh
 swappy
+Epic/
+Unreal Engine/
+menus/
