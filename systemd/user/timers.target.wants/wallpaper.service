@@ -1,8 +1,0 @@
-[Unit]
-Description=Change wallpaper depending on time
-
-[Service]
-ExecStart=/home/aj/.config/hypr/scripts/randomPaper.sh
-
-
-
