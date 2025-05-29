@@ -1,4 +1,12 @@
 #!/bin/bash
+#
+# Wait until hyprpaper is running (max 10 retries)
+retries=10
+until pgrep -x hyprpaper >/dev/null || [ $retries -eq 0 ]; do
+  echo "Waiting for hyprpaper to start..."
+  sleep 3
+  ((retries--))
+done
 
 hyprctl hyprpaper unload all
 
